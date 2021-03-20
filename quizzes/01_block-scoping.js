@@ -18,6 +18,10 @@ function immutable() {
   return {object: object, array: array}
 }
 // log(immutable())
+/* {
+  object:{a: 'q'},
+  array:[1,3,4]
+} */
 
 function immutableReference() {
   // what is returned?
